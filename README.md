@@ -1,5 +1,5 @@
-# csdd1008_LB
+Assignment_6
 
-docker swarm init
+sudo docker swarm init
 
-docker service create --name sdd1008_lb --publish 8080:8080 --replicas 3 sdd1008_lb
+sudo docker service create --name browser-info -p 80:80 denilrathod/browser-info
